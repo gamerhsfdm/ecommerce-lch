@@ -114,7 +114,7 @@ export default function HomePageClient() {
                     <h2
                       className="text-4xl font-extrabold mb-4 text-purple-700" // Ajuste de cor para #030a7f
                     >
-                      Nossa Paixão é o Detalhe
+                      Nossa Paixão NÃO é o Detalhe
                     </h2>
 
                     <p className="text-gray-600 mb-4 text-lg">
