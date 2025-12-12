@@ -42,6 +42,7 @@ import {
   CardFooter,
   CardHeader,
 } from "@/components/ui/card";
+import NavBar from "../components/Navbar";
 
 // --- Dados Mockados (Substitua pela sua lógica de API) ---
 const mockProducts: Product[] = Array.from({ length: 15 }).map((_, i) => ({
@@ -214,9 +215,10 @@ export default function ProductListingPage() {
   };
 
   return (
-    <div className="bg-gray-50 min-h-screen">
+    <div className="bg-gray-50 min-h-screen p-38">
       <div className="container mx-auto px-4 py-10 md:py-16">
         {/* Título e Controles */}
+        <NavBar/>
         <div className="mb-8">
           <h1 className="text-4xl font-extrabold text-gray-900">
             Resultados da Busca
